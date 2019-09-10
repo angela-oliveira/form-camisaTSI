@@ -16,7 +16,8 @@ body{
 .dados{
     text-align: center;
     margin: auto;
-    width: 50%;
+    display: flex;
+    justify-content: center;
 }
 .submit{
     width: 50%;
