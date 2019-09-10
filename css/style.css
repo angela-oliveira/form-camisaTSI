@@ -16,4 +16,24 @@ body{
 .dados{
     text-align: center;
     margin: auto;
+    width: 50%;
+}
+.submit{
+    width: 50%;
+}
+.informacoes{
+    background-color: #fff;
+}
+.texts{
+    padding: 2%;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+.add{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
 }
