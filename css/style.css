@@ -2,7 +2,7 @@ body{
     background-color: #eae9ea;
 }
 .main{
-    margin-top: 50px;
+    margin: 5%;
 }
 .tamanhos span{
     color: black;
@@ -20,6 +20,9 @@ body{
 }
 .submit{
     width: 50%;
+}
+.button-submit{
+    margin-bottom: 5%;
 }
 .informacoes{
     background-color: #fff;
