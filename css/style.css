@@ -1,0 +1,19 @@
+body{
+    background-color: #eae9ea;
+}
+.main{
+    margin-top: 50px;
+}
+.tamanhos span{
+    color: black;
+}
+.tamanhos{
+    background-color: #fff;
+}
+.card-title{
+    color: black;
+}
+.dados{
+    text-align: center;
+    margin: auto;
+}
