@@ -61,22 +61,20 @@
                     <div class="card-image">
                         <img src="img/01.jpg">
                         <p class="card-title" style="color: black; margin: 1rem 0rem 5rem 1rem">Modelo 01 Azul</p>
-                        <!-- <span class="card-title" style="color: black">Modelo 01 Azul</span> -->
-
+                        
                         <div class="container row add" style="margin: auto">
                             <div class="col">
-                                <a class="btn-floating waves-effect waves-light red"><i
+                                <a class="btn-floating waves-effect waves-light red menos01"><i
                                         class="material-icons">remove</i></a>
                             </div>
                             <div class="col" style="text-align: center;width: 4rem;">
-                                <input name="resultado" id="resultado" value="0">
+                                <input name="resultado" id="resultado01" value="0">
                             </div>
                             <div class="col">
-                                <a class="btn-floating waves-effect waves-light red"><i
+                                <a class="btn-floating waves-effect waves-light red mais01" onclick="num()"><i
                                         class="material-icons">add</i></a>
                             </div>
                         </div>
-
                     </div>
                     <div class="card-content">
                         <p></p>
@@ -94,14 +92,14 @@
 
                         <div class="container row add" style="margin: auto">
                             <div class="col">
-                                <a class="btn-floating waves-effect waves-light red"><i
+                                <a class="btn-floating waves-effect waves-light red menos02"><i
                                         class="material-icons">remove</i></a>
                             </div>
                             <div class="col" style="text-align: center;width: 4rem;">
-                                <input name="resultado" id="resultado" value="0">
+                                <input name="resultado" id="resultado02" value="0">
                             </div>
                             <div class="col">
-                                <a class="btn-floating waves-effect waves-light red"><i
+                                <a class="btn-floating waves-effect waves-light red mais02"><i
                                         class="material-icons">add</i></a>
                             </div>
                         </div>
@@ -123,14 +121,14 @@
 
                         <div class="container row add" style="margin: auto">
                             <div class="col">
-                                <a class="btn-floating waves-effect waves-light red"><i
+                                <a class="btn-floating waves-effect waves-light red menos03"><i
                                         class="material-icons">remove</i></a>
                             </div>
                             <div class="col" style="text-align: center;width: 4rem;">
-                                <input name="resultado" id="resultado" value="0">
+                                <input name="resultado" id="resultado03" value="0">
                             </div>
                             <div class="col">
-                                <a class="btn-floating waves-effect waves-light red"><i
+                                <a class="btn-floating waves-effect waves-light red mais03"><i
                                         class="material-icons">add</i></a>
                             </div>
                         </div>
@@ -150,14 +148,14 @@
 
                         <div class="container row add" style="margin: auto">
                             <div class="col">
-                                <a class="btn-floating waves-effect waves-light red"><i
+                                <a class="btn-floating waves-effect waves-light red menos04"><i
                                         class="material-icons">remove</i></a>
                             </div>
                             <div class="col" style="text-align: center;width: 4rem;">
-                                <input name="resultado" id="resultado" value="0">
+                                <input name="resultado" id="resultado04" value="0">
                             </div>
                             <div class="col">
-                                <a class="btn-floating waves-effect waves-light red"><i
+                                <a class="btn-floating waves-effect waves-light red mais04"><i
                                         class="material-icons">add</i></a>
                             </div>
                         </div>
@@ -171,9 +169,9 @@
         </div>
         <div class="divider"></div>
         <!-- Tamanhos -->
-        <div class="container tamanhos">
+        <div class="container">
 
-            <form action="#" class="row">
+            <form action="#" class="tamanhos row">
                 <div class="col s2">
                     <p>
                         <label>
@@ -269,7 +267,7 @@
         <div class="container">
             <div class="row submit">
                 <div class="obs">
-                    <textarea id="obs" class="materialize-textarea"></textarea>
+                    <textarea id="obs" class="materialize-textarea validate"></textarea>
                     <label for="obs">Observação</label>
                 </div>
                 <div class="col s10 offset-s5">
@@ -281,7 +279,7 @@
         </div>
 
     </div>
-
+    <script src="script/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 

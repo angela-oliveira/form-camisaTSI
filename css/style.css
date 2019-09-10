@@ -24,6 +24,10 @@ body{
 .informacoes{
     background-color: #fff;
 }
+.container{
+    background-color: #fff;
+    margin-top: 2%;
+}
 .texts{
     padding: 2%;
     text-align: center;
