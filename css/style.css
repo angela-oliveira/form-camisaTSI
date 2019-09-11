@@ -9,6 +9,11 @@ body{
 }
 .tamanhos{
     background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    grid-gap: 1%;
+    margin: 1%;
 }
 .card-title{
     color: black;
@@ -28,7 +33,6 @@ body{
 }
 .button-submit{
     margin-bottom: 5%;
-    margin-top: 5%;
 }
 .informacoes{
     background-color: #fff;
@@ -71,7 +75,17 @@ body{
     grid-row: 2/3;
     grid-column: 2/3
 }
-
+.obs{
+    width: 100%;
+}
+.tamanhos div p{
+    border:1px solid #26a69a;
+}
+@media (max-width: 800px){
+    .tamanhos{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 @media (max-width: 700px){
     .camisas {
         display: flex;
@@ -95,5 +109,8 @@ body{
     .button-submit{
         margin: auto;
         text-align: center;
+    }
+    .tamanhos{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
